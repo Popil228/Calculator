@@ -121,8 +121,19 @@ namespace Calculator
                 return;
             }
 
-            // Перевірка на дужки
-            if (text == "(")
+            // Не дозволяємо подвійні математичні символи
+            if (isMathSing)
+            {
+                if (lastChar == '^' || lastChar == 'π' || lastChar == '√')
+                {
+                    return;
+                }
+                this.textTextBox.Text += text;
+                return;
+            }
+
+                // Перевірка на дужки
+                if (text == "(")
             {
                 // Якщо перед дужкою число, число пі або закриваюча дужка, не можна ставити відкриту дужку
                 if (char.IsDigit(lastChar) || lastChar == ')' || lastChar == 'π')

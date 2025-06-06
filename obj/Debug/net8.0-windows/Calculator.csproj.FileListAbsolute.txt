@@ -74,3 +74,4 @@ D:\навчання\Ярмолюк\ооп\Calculator\Calculator\bin\Debug\net8.0
 D:\навчання\Ярмолюк\ооп\Calculator\Calculator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\навчання\Ярмолюк\ооп\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.AssemblyReference.cache
 D:\навчання\Ярмолюк\ооп\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.Up2Date
+D:\навчання\Ярмолюк\ооп\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.sourcelink.json
